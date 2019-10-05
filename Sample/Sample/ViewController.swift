@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+// MARK: - Sample
 class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var myTextField: UITextField!
     @IBOutlet weak var myLabel: UILabel!
@@ -15,11 +15,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // コメント追記（サンプルのコメント）
+        // コメントのサンプルをさらに追記
         
 //      myTextFieldのデリゲートになる
         myTextField.delegate = self
     }
-    
+
+    // MARK: - func textField
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange,
                    replacementString string: String) -> Bool {
         let tmpStr = textField.text! as NSString
