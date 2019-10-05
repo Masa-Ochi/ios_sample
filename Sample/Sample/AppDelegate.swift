@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
         // コメント追加
+        // サンプル２
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
