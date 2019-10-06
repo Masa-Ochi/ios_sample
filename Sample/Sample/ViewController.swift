@@ -16,6 +16,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         // コメント追記（サンプルのコメント）
         // コメントのサンプルをさらに追記
+        // コメントさらに追加したい。
         
 //      myTextFieldのデリゲートになる
         myTextField.delegate = self
