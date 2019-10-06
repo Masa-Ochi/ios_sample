@@ -18,6 +18,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // コメントのサンプルをさらに追記
         // コメントさらに追加したい。
         // SampleAのコメント
+        //SampleBのコメントはここ！！！
         
 //      myTextFieldのデリゲートになる
         myTextField.delegate = self
