@@ -15,12 +15,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // コメント追記（サンプルのコメント）
-        // add test comment
-
-        // test test
+        // コメントのサンプルをさらに追記
+        // コメントさらに追加したい。
+        // SampleAのコメント
+        //SampleBのコメントはここ！！！
+        // SampleAでコメントをさらに追加
         
 //      myTextFieldのデリゲートになる
-        
         myTextField.delegate = self
     }
 
