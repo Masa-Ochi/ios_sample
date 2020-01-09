@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // サンプル２
     }
     
+// add comment for test.....
     // test test
 
     func applicationWillResignActive(_ application: UIApplication) {
